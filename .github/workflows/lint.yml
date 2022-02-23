@@ -1,5 +1,5 @@
 # CI Name
-name: 'Build'
+name: 'Lint'
 
 # Only running when
 on:
@@ -8,7 +8,7 @@ on:
             - main
 
 jobs:
-    build:
+    lint:
         # Running on latest version of Ubuntu
         runs-on: ubuntu-latest
 
